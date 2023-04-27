@@ -9,13 +9,8 @@
   <CustomTaskbarLayoutCollection PinListPlacement="Replace">
     <defaultlayout:TaskbarLayout>
       <taskbar:TaskbarPinList>
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\Microsoft VS Code\code.exe" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\PowerShell\7\pwsh.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\windowspowershell\v1.0\powershell.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="%appdata%\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Wireshark.lnk" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\explorer.exe" />
       </taskbar:TaskbarPinList>
     </defaultlayout:TaskbarLayout>
