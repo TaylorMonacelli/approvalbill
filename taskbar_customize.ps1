@@ -13,6 +13,8 @@
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\PowerShell\7\pwsh.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\explorer.exe" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\shutdown_now.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\reboot_now.lnk" />
       </taskbar:TaskbarPinList>
     </defaultlayout:TaskbarLayout>
   </CustomTaskbarLayoutCollection>
