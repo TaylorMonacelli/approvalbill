@@ -9,8 +9,9 @@
   <CustomTaskbarLayoutCollection PinListPlacement="Replace">
     <defaultlayout:TaskbarLayout>
       <taskbar:TaskbarPinList>
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\windowspowershell\v1.0\powershell.exe" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\PowerShell\7\pwsh.exe" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\explorer.exe" />
       </taskbar:TaskbarPinList>
     </defaultlayout:TaskbarLayout>
