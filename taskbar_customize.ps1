@@ -9,9 +9,9 @@
   <CustomTaskbarLayoutCollection PinListPlacement="Replace">
     <defaultlayout:TaskbarLayout>
       <taskbar:TaskbarPinList>
-        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\powershell -NoLogo.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\shutdown_now.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\reboot_now.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\powershell -NoLogo.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\shutdown_now.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\reboot_now.lnk" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\windowspowershell\v1.0\powershell.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\PowerShell\7\pwsh.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
