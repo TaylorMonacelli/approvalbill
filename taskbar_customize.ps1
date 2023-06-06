@@ -1,4 +1,4 @@
-@'
+@"
 <?xml version="1.0" encoding="utf-8"?>
 <LayoutModificationTemplate
     xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification"
@@ -9,17 +9,18 @@
   <CustomTaskbarLayoutCollection PinListPlacement="Replace">
     <defaultlayout:TaskbarLayout>
       <taskbar:TaskbarPinList>
+        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\powershell -NoLogo.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\shutdown_now.lnk" />
+        <taskbar:DesktopApp DesktopApplicationLinkPath="$env:USERPROFILE\Documents\Scripts\reboot_now.lnk" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\windowspowershell\v1.0\powershell.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Program Files\PowerShell\7\pwsh.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\System32\control.exe" />
         <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Windows\explorer.exe" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\shutdown_now.lnk" />
-        <taskbar:DesktopApp DesktopApplicationLinkPath="C:\Users\Administrator\Documents\Scripts\reboot_now.lnk" />
       </taskbar:TaskbarPinList>
     </defaultlayout:TaskbarLayout>
   </CustomTaskbarLayoutCollection>
 </LayoutModificationTemplate>
-'@ | Out-File -encoding ASCII C:\Windows\Temp\Taskbar.xml
+"@ | Out-File -encoding ASCII C:\Windows\Temp\Taskbar.xml
 
 Import-StartLayout -LayoutPath C:\Windows\Temp\Taskbar.xml -MountPath c:\
 
